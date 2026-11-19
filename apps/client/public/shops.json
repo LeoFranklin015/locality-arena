@@ -1,0 +1,5 @@
+[
+  { "id": "demo-1", "name": "demo cafe", "kind": "food", "lat": 13.04185, "lng": 80.23405 },
+  { "id": "demo-2", "name": "demo theatre", "kind": "movies", "lat": 13.04262, "lng": 80.23518 },
+  { "id": "demo-3", "name": "demo grocery", "kind": "grocery", "lat": 13.04098, "lng": 80.23302 }
+]

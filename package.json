@@ -1,0 +1,10 @@
+{
+  "name": "locality-arena",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:zone": "npm run dev -w apps/zone-server",
+    "dev:client": "npm run dev -w apps/client",
+    "typecheck": "npm run typecheck --workspaces"
+  }
+}

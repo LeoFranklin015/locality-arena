@@ -1,0 +1,11 @@
+name = "arena-zone-server"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+[[durable_objects.bindings]]
+name = "ZONES"
+class_name = "Zone"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Zone"]
